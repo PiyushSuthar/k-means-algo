@@ -7,13 +7,15 @@ Implementation of Image segmentation using K-Means algorithm in rust.
 ## Usage
 
 ```bash
-cargo run --release -- <input_image> <output_image> <k>
+cargo run --release -- <input_image> <k>
 ```
+
+saves the output image as `<input_image>_segmented.jpg` in the current directory.
 
 ## Example
 
 ```bash
-cargo run --release -- images/lena.png images/lena_out.png 5
+cargo run --release -- images/lena.png  5
 ```
 
 <!-- Table showing images in example folder -->
