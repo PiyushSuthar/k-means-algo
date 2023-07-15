@@ -22,6 +22,6 @@ cargo run --release -- images/lena.png  5
 
 _Input_ and _Output_ images for different values of `k`:
 
-| Input                    | K = 2                    | K = 5                    | K = 7                    |
-| ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-| ![Me](examples/real.jpg) | ![K_2](examples/k_2.png) | ![K_5](examples/k_5.jpg) | ![K_7](examples/k_7.jpg) |
+| Input                    | K = 2                    | K = 5                    | K = 10                    |
+| ------------------------ | ------------------------ | ------------------------ | ------------------------- |
+| ![Me](examples/real.jpg) | ![K_2](examples/k_2.png) | ![K_5](examples/k_5.jpg) | ![K_7](examples/k_10.jpg) |
